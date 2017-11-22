@@ -1,0 +1,30 @@
+{
+
+	"authors": [
+        {
+            "name": "Matt Renner",
+            "email": "matt@hell.co.nz"
+        },
+        {
+            "name": "Jamie Armour",
+            "email": "jamie@hell.co.nz"
+        }
+    ],
+
+    "require": {
+    
+        "beberlei/composer-monorepo-plugin": "^0.12.1",
+
+        "wave-framework/wave": "3.7.5",
+
+        "twig/twig": "1.18.0"
+    },
+
+
+    "repositories": [],
+
+    "config": {
+        "bin-dir": "bin"
+    }
+
+}

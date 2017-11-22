@@ -1,0 +1,11 @@
+{
+    "deps": [
+        "vendor/wave-framework/wave",
+        "vendor/twig/twig"
+    ],
+
+    "autoload": {
+         "psr-0": { "": "app/" }
+    }
+
+}
