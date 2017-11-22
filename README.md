@@ -8,12 +8,15 @@ To get this going
 `cd example-stack`
 
 Install Wave dependencies
+
 `composer install`
 
 Spin up database, php-nginx containers
+
 `docker-compose up -d`
 
 Generate routes, models, views as necessary
+
 `cd api`
 
 `./vendor/bin/wave generate/routes`
