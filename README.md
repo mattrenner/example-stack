@@ -4,6 +4,7 @@ An example stack using the wave framework
 To get this going
 
 `git clone git@github.com:mattrenner/example-stack.git`
+
 `cd example-stack`
 
 Install Wave dependencies
@@ -14,8 +15,11 @@ Spin up database, php-nginx containers
 
 Generate routes, models, views as necessary
 `cd api`
+
 `./vendor/bin/wave generate/routes`
+
 `./vendor/bin/wave generate/models`
+
 `./vendor/bin/wave generate/views`
 
 
